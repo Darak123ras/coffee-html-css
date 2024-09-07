@@ -131,10 +131,20 @@ main .home button p{
     padding-top: 10px;
     font-size: 15px;
 }
-main .home button:hover{
+main .home button:hover {
     background: linear-gradient(rgb(62, 4, 4),rgb(41, 46, 25));
     color: rgb(13, 214, 177);
+    /* display: block;
+    filter: drop-shadow(0 0 20px #0e0f5a); */
 }
+/* main .home button:hover .stars{
+    display: block;
+    filter: drop-shadow(0 0 20px #0e0f5a);
+} */
+
+/* .btn{
+    transition: transform 0.3s ease; 
+} */
 
 .btn img{
     left: 50%;
@@ -147,6 +157,7 @@ main .home button:hover{
     transition: all 0.3s ease-in-out;
     cursor: pointer;
     border-radius: 50%;
+    /* transition: transform 0.3s ease;  */
 }
 .btn img:hover{
     box-sizing: border-box;
@@ -154,6 +165,7 @@ main .home button:hover{
     height: 33px;
     /* box-shadow: 15px -5px 15px -5px  rgb(241, 225, 206) ; */
     filter: drop-shadow(0 0 10px rgba(227, 194, 148, 0.863));
+    /* transform: translateY(-5px);  */
 }
 
 main .about{
@@ -315,7 +327,17 @@ main .about img{
 
 
 
-
+/* CONTACT */
+#contact{
+    margin: 30px;
+}
+#contact h1{
+    width: auto;
+    font-size: 36px;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 
 

@@ -40,9 +40,17 @@ nav{
     /* background:linear-gradient(rgb(222, 161, 118),white); */
     /* opacity: 90%; */
     padding: 5px 50px;
-
-    /* position: relative; */
+    /* Another CSS you can apply:  */
+    position: fixed;
+    top: 0px;
+    
+    z-index: 5;
+    width: 100%;
+    /* background:linear-gradient(120deg, rgb(75, 31, 31) 0%, rgb(176, 142, 78) 100%); */
 }
+/* .nav-visited,.logo{
+   
+} */
 
 nav img{
     width: 60px;
@@ -148,7 +156,7 @@ main .home button:hover {
 
 .btn img{
     left: 50%;
-    bottom: 20px;
+    bottom: 63px;
     position: absolute;
     background-color: rgb(253, 252, 252);
     z-index: 1;
@@ -236,6 +244,7 @@ main .about img{
     width: 100vw;
     align-items: center;
     gap: 30px;
+    position: relative;
 }
 
 .coffee>h1{
@@ -287,7 +296,8 @@ main .about img{
 
   .prev, .next {
     z-index: 4;
-    background-color: rgb(244, 139, 2);
+    background-color: rgb(234, 214, 188);
+    border-radius: 50%;
     width: 50px;
     height: 50px;
     cursor: pointer;
@@ -303,6 +313,10 @@ main .about img{
 
 
 .coffee .sbtn{
+    position: absolute;
+    top: 89%;
+    right: 46%;
+
     list-style: none;
     text-decoration: none;
     color: burlywood;
@@ -318,8 +332,6 @@ main .about img{
 .coffee .sbtn:hover{
     color: rgb(216, 213, 208);
     /* box-sizing: border-box; */
-    width: 200px;
-    height: 200px;
     /* box-shadow: 15px -5px 15px -5px  rgb(241, 225, 206) ; */
     filter: drop-shadow(0 0 10px rgba(227, 194, 148, 0.863));
 

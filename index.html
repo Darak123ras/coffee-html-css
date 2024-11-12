@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Matemasie&display=swap" rel="stylesheet">
@@ -114,16 +115,34 @@
         </section>
         
         <br> <br><br>
+        
         <section id="contact">
-            <h1>Contact</h1>
-            <div class="contact-details">
-                <label for="name">Name:</label><br>
-                <input type="text" name="name" id="name" placeholder="Your Name" required><br>
-                <label for="email">Email:</label><br>
-                <input type="email" name="email" id="email" placeholder="Your Email"><br>
-                <label for="review">Your Thought:</label><br>
-                <textarea name="text" id="text" placeholder="What do you think about this page? " rows="6" cols="31" ></textarea><br>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore saepe necessitatibus repellat dignissimos aperiam consequuntur pariatur iure consequatur officia ipsa nesciunt sint officiis inventore natus architecto culpa dicta recusandae nisi, eligendi dolor esse, suscipit beatae. Quisquam pariatur omnis sed praesentium?</p>
+            <div>
+                <h1>Contact</h1>
+            </div>
+            <div class="container">
+                
+                    <div class="img">
+                        <img src="./images/contact.jpg" alt="" width="530px" height="520px">
+                    </div>
+                    <div class="details">
+                        <div class="name">
+                            <label for="name">Name:</label><br>
+                            <input type="text" name="name" id="name" placeholder="Your Name" required><br>
+                        </div>
+                        <div class="email">
+                            <label for="email">Email:</label><br>
+                            <input type="email" name="email" id="email" placeholder="Your Email ID"><br>
+                        </div>
+                        <div class="feedback">
+                            <label for="feedback">Review:</label><br>
+                            <textarea name="text" id="text" placeholder="Your Comment " rows="6" cols="31" ></textarea><br>
+                        </div>
+                        <div class="btn">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </div>
+                    
             </div>
         </section>
     </main>

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#contact{
+    /* position: relative; */
+    margin: 10px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+#contact h1{
+    color: rgb(44, 48, 52);
+    width: auto;
+    font-size: 36px;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#contact .container{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, white 0%, rgb(176, 142, 78) 50%, rgb(75, 31, 31) 100%);
+    border-radius: 50px;
+    
+    
+
+}
+#contact .container .img img{
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+}
+
+#contact .container .details{
+    margin: 10px;
+    padding: 30px;
+    /* background-color: antiquewhite; */
+    width: 50%;
+    max-height: 520px;
+    display: flex;
+    justify-content: space-evenly ;
+    align-items: flex-start;
+    flex-direction: column;
+    
+
+}
+#contact .container .details input,textarea{
+    width: 490px;
+}
+
+#contact .container .details button{
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(253, 252, 252);
+    width: 190px;
+    padding: 10px;
+    border-radius: 30px;
+    font-family: "Dancing Script", cursive;
+    /* font-optical-sizing: auto; */
+    
+    font-style: normal;
+    cursor: pointer;
+    
+    text-align: center;
+}
+#contact .container .details button:hover{
+    background: linear-gradient(rgb(62, 4, 4),rgb(41, 46, 25));
+    color: rgb(13, 214, 177);
+    filter: drop-shadow(0 0 10px rgba(227, 194, 148, 0.863));
+}

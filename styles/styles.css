@@ -354,6 +354,7 @@ main .about img{
 
 
 @media (max-width:500px) {
+    
     .about{
         position:none;
         display:flex;

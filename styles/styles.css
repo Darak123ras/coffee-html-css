@@ -46,6 +46,11 @@ nav{
     
     z-index: 5;
     width: 100%;
+
+
+    background: rgba(255, 255, 255, 0.2); 
+        backdrop-filter: blur(10px); 
+        -webkit-backdrop-filter: blur(10px);
     /* background:linear-gradient(120deg, rgb(75, 31, 31) 0%, rgb(176, 142, 78) 100%); */
 }
 /* .nav-visited,.logo{
@@ -58,6 +63,16 @@ nav img{
     /* z-index: 1; */
 
 }
+.navbar-toggler {
+    display: none;
+       background-color: white;
+       color: #528ac6;
+       border: none;
+       padding: 10px 15px;
+       cursor: pointer;
+       font-size: 1rem;
+       border-radius: 5px;
+ }
 nav ul{
     flex: 1;
     z-index: 1;
@@ -348,7 +363,46 @@ main .about img{
 
 
 
+@media (max-width:790px) {
+    .hidden{
+        background: rgba(255, 255, 255, 0.2); 
+        backdrop-filter: blur(10px); 
+        -webkit-backdrop-filter: blur(10px);
+    }
+    .hidden{
+        display: none;
+    }
+    nav .navbar-toggler{
+        display: block;
+        color: lightblue;
+    }
+    nav .navbar-toggler:hover{
+        box-shadow: 10px;
 
+    }
+    .hidden.active {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        
+        /* background-color: #9a5838; */
+        padding: 10px 0px;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+    } 
+     ul {
+        flex-direction: column;
+        gap: 10px;
+        align-items: start;
+    }
+    ul li{
+        margin-left: 50px;
+    }
+    
+}
 
 
 
